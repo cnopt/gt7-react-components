@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./css/InputField.css";
 import Dropdown from "./Dropdown.jsx";
-
+// rename this to 'multi-select box or area or something
+// its not really an input anymore
 export default function InputField(props) {
   const {country, manufacturer, model} = props;
   return (

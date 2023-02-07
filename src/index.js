@@ -6,6 +6,7 @@ import InputField from "./InputField.jsx";
 import Dropdown from "./Dropdown.jsx";
 import Button from "./Button.jsx";
 import NoticeStrip from "./NoticeStrip.jsx";
+import GTTable from "./GTTable.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -14,5 +15,7 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
     <NoticeStrip color="blue">
       This race can be entered with a Garage Car
     </NoticeStrip>
+    <GTTable></GTTable>
+    <GTTable></GTTable>
   </>
 );

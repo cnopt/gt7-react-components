@@ -1,0 +1,64 @@
+#inputfield-container-outer {
+    background-color: rgb(56, 51, 42);
+    padding: 1.4rem;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+  }
+  #container-title {
+    color: rgb(224, 222, 216);
+    font-family: sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-top: -0.5rem;
+  }
+  
+  #inputfield-container-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  #inputfield-container-inner .label {
+    font-size: 0.75em;
+    color: rgb(224, 222, 216);
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+  }
+  
+  #container-country,
+  #container-maker,
+  #container-car {
+    width: 100%;
+  }
+  
+  #selector-country,
+  #selector-maker,
+  #selector-car {
+    display: inline-block;
+    width: 94%;
+    background-color: rgb(117, 99, 78);
+    color: rgb(224, 222, 216);
+    border-radius: 5px;
+    padding: 0.5rem;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+  }
+  
+  #selector-country option {
+    color: rgb(224, 222, 216);
+  }
+  
+  @media screen and (max-width: 530px) {
+    body {
+      background-color: red;
+    }
+    #inputfield-container-inner {
+      display: block;
+    }
+    #selector-country,
+    #selector-maker,
+    #selector-car {
+      display: block;
+      width: 100%;
+    }
+  }
+  

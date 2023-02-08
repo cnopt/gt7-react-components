@@ -5,10 +5,11 @@ import "./css/GTTable.css";
 // make this so the props are columnsxrows
 // so u can make different table types with one table comp
 export default function GTTable(props) {
+  const {header, width} = props;
   return (
     <>
-      <table className="gttable" width="100%">
-        <th className="gttable-main-header">Regulations</th>
+      <table className="gttable" width={width}>
+        <th className="gttable-main-header">{header}</th>
         <tr>
           <th>Useable Tyres & Types</th>
           <td>Racing</td>

@@ -1,0 +1,16 @@
+#containerbox-lower-inner {
+    background: rgb(37, 45, 49);
+    background: linear-gradient(
+      180deg,
+      rgba(37, 45, 49, 1) 0%,
+      rgba(22, 24, 25, 1) 100%
+    );
+    padding:1.5rem;
+    padding-bottom: 2rem;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}

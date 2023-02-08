@@ -3,10 +3,10 @@
   padding: 0;
   color: #96a1aa;
   font-family: sans-serif;
+  margin-bottom: 0.75rem;
 }
 
 .gttable-main-header {
-  margin-top: 0.65rem;
   color: #c0cdd6;
   text-align: center;
   display: table-caption;
@@ -25,6 +25,7 @@
   border-bottom: 1px solid #50565a;
   justify-content: space-between;
   align-items: center;
+  image-rendering: crisp-edges;
 }
 
 .gttable tr th {
@@ -41,5 +42,6 @@
 .gttable tr td::after {
   content: "✓";
   margin-left: 0.7rem;
+  margin-right: 0.5rem;
   opacity: 0.4;
 }

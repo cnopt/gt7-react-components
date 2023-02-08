@@ -1,0 +1,42 @@
+#dailyrace-infobar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#e3f2fd;
+    font-family: sans-serif;
+}
+    #dailyrace-infobar #title-area #title {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 0.75rem;
+        padding-top: 1rem;
+    }
+    #dailyrace-infobar #title-area #race-name {
+        opacity: 0.65;
+        font-size: 0.9em;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 0.5rem;
+    }
+
+#dailyrace-infobar #info-area table th {
+    font-weight: lighter;
+    font-size: 0.6em;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    opacity: 0.65;
+}
+#dailyrace-infobar #info-area table td {
+    text-align: center;
+    font-size: 1em;
+    border-right:1px solid #50565a;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+    #dailyrace-infobar #info-area table td:last-child {
+        border-right: none;
+    }
+    #dailyrace-infobar #info-area table td.qual-time {
+        color:rgb(72, 118, 152);
+    }

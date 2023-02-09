@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./css/InputField.css";
+import "../css/InputField.css";
 
 export default function Dropdown(props) {
   const {label} = props;

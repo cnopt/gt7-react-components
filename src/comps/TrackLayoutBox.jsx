@@ -1,5 +1,5 @@
 import React from "react";
-import './css/TrackLayoutBox.css'
+import '../css/TrackLayoutBox.css'
 
 export default function TrackLayoutBox(props) {
     const {children,img, title, miles} = props;

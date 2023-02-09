@@ -1,11 +1,11 @@
 import React from "react";
-import './css/ContainerBox_Lower.css'
+import '../css/ContainerBox.css'
 
-export default function ContainerBox_Lower(props) {
+export default function ContainerBox(props) {
     const {children} = props;
     return(
         <>
-            <div id="containerbox-lower">
+            <div id="containerbox">
                 {children}
             </div>
         </>

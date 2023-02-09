@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/NoticeStrip.css";
+import "../css/NoticeStrip.css";
 
 export default function NoticeStrip(props) {
   const {children, color} = props;

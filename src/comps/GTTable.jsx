@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/GTTable.css";
+import "../css/GTTable.css";
 
 // todo make this modular mate
 // make this so the props are columnsxrows

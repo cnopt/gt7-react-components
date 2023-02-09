@@ -1,5 +1,5 @@
 import React from "react";
-import './css/DailyRace_InfoBar.css';
+import '../css/DailyRace_InfoBar.css';
 
 //todo make this modular as well so you can change the race details
 

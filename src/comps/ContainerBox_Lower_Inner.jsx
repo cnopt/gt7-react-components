@@ -1,5 +1,5 @@
 import React from "react";
-import './css/ContainerBox_Lower_Inner.css'
+import '../css/ContainerBox_Lower_Inner.css'
 
 export default function ContainerBox_Lower_Inner(props) {
     const {children} = props;

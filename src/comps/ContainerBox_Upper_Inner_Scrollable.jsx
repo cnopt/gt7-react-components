@@ -1,5 +1,5 @@
 import React from "react";
-import './css/ContainerBox_Upper_Inner_Scrollable.css'
+import '../css/ContainerBox_Upper_Inner_Scrollable.css'
 
 export default function ContainerBox_Upper_Inner_Scrollable(props) {
     return(

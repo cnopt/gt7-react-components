@@ -1,5 +1,5 @@
 import React from "react";
-import './css/TrackLayoutHorizontalContainer.css'
+import '../css/TrackLayoutHorizontalContainer.css'
 
 export default function TrackLayoutHorizontalContainer(props) {
     const {children} = props;

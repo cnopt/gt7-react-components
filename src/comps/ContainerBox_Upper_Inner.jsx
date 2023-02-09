@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/ContainerBox_Upper_Inner.css";
+import "../css/ContainerBox_Upper_Inner.css";
 
 export default function ContainerBox_Upper_Inner(props) {
     return(

@@ -1,0 +1,37 @@
+#trackconditions-box {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-right: 1rem;
+    background-color: black;
+    opacity: 0.75;
+    color:white;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 30%);
+    border-radius: 6px;
+    padding:1rem;
+    height: 3rem;
+}
+
+#trackconditions-box-left {
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 0.5rem;
+}
+    #trackconditions-box-left #title {
+        margin: 0;
+        font-size: 0.8em;
+    }
+    #trackconditions-box-left #time {
+        margin:0;
+        font-size: 1.5em;
+    }
+
+#trackconditions-box-right {
+    align-self: center;
+    padding-left: 0.5rem;
+}
+    #trackconditions-box-right #conditions {
+        font-size: 0.7em;
+    }

@@ -1,5 +1,5 @@
 import React from "react";
-import './css/GTTrackMap.css';
+import '../css/GTTrackMap.css';
 
 export default function GTTrackMap(props) {
     const {img, children} = props;

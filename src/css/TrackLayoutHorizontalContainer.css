@@ -1,0 +1,19 @@
+#tracklayout-horizontal-container {
+    display: flex;
+    justify-content: center;
+    /* overflow-x: scroll; */
+}
+
+#tracklayout-horizontal-container::-webkit-scrollbar {
+    height: 4px;
+}
+#tracklayout-horizontal-container::-webkit-scrollbar-track {
+    background: #2b3238;
+}
+#tracklayout-horizontal-container::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+#tracklayout-horizontal-container::-webkit-scrollbar-thumb:hover {
+    background: #acacac;
+}

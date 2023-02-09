@@ -1,5 +1,6 @@
 body {
-  background-color: red;
+  background-color: rgb(162, 162, 162);
+  padding: 1rem;
 }
 
 @media screen and (min-width:850px) {

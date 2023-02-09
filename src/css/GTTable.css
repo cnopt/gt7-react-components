@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   color: #96a1aa;
-  font-family: sans-serif;
   margin-bottom: 0.75rem;
 }
 
@@ -10,7 +9,8 @@
   color: #c0cdd6;
   text-align: center;
   display: table-caption;
-  font-size: 0.8em;
+  font-family: 'helv';
+  font-size: 0.7em;
   font-weight: lighter;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
@@ -30,14 +30,17 @@
 
 .gttable tr th {
   opacity: 0.65;
-  font-size: 0.8em;
+  font-size: 0.75em;
   text-align: left;
-  font-weight: lighter;
+  font-family: 'helv-lt';
+  letter-spacing: 0.01rem;
 }
 
 .gttable tr td {
   text-align: right;
   color: #e3f2fd;
+  font-family: 'helv-md';
+  font-size: 0.8em;
 }
 .gttable tr td::after {
   content: "✓";

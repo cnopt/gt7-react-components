@@ -2,7 +2,7 @@
     margin-right: 1rem;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 30%);
     outline: none;
-    font-family: sans-serif;
+    font-family: 'helv';
     overflow: hidden;
     width: 15rem;
 }
@@ -34,19 +34,18 @@
 }
     #tracklayout-name {
         margin: 0;
-        font-weight: bold;
+        font-family: 'helv-md';
         font-size: 0.8em;
         padding-bottom: 0.65rem;
     }
     #tracklayout-length {
         margin: 0;
         font-size: 0.7em;
+        font-weight: 'helv-lt';
     }
         #tracklayout-length::before {
             content: "Track Length: ";
-            font-weight: light;
         }
         #tracklayout-length::after {
             content: " miles";
-            font-weight: light;
         }

@@ -11,6 +11,7 @@
         padding: 0;
         padding-bottom: 0.75rem;
         padding-top: 1rem;
+        font-family: 'helv-md';
     }
     #dailyrace-infobar #title-area #race-name {
         opacity: 0.65;
@@ -18,6 +19,7 @@
         padding: 0;
         margin: 0;
         padding-bottom: 0.5rem;
+        font-family: 'helv';
     }
 
 #dailyrace-infobar #info-area table th {
@@ -26,6 +28,7 @@
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     opacity: 0.65;
+    font-family: 'helv-lt';
 }
 #dailyrace-infobar #info-area table td {
     text-align: center;
@@ -34,6 +37,7 @@
     padding-right: 0.5rem;
     padding-left: 0.5rem;
     padding-bottom: 0.5rem;
+    font-family: 'helv';
 }
     #dailyrace-infobar #info-area table td:last-child {
         border-right: none;

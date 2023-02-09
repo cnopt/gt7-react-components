@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'helv';
+  src: url('./Helv-R.otf');
+}
+@font-face {
+  font-family: 'helv-md';
+  src: url('./Helv-Md.otf');
+}
+@font-face {
+  font-family: 'helv-lt';
+  src: url('./Helv-Lt.otf');
+}
+@font-face {
+  font-family: 'helv-bd';
+  src: url('./Helv-Bd.otf');
+}
+
+
 body {
   background-color: rgb(162, 162, 162);
   padding: 1rem;

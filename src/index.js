@@ -44,13 +44,13 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
           <Button>Rent an Event-Specified Car</Button>
         </ContainerBox_Lower_Inner>
       </ContainerBox_Lower>
-    </ContainerBox>
+    </ContainerBox> */}
 
-    <TrackLayoutHorizontalContainer>
+    {/* <TrackLayoutHorizontalContainer>
       <TrackLayoutBox img={dragonTrailReverse} title="Layout A" miles="3.18"></TrackLayoutBox>
       <TrackLayoutBox img={dragonTrailReverse} title="Layout B" miles="3.18"></TrackLayoutBox>
       <TrackLayoutBox img={dragonTrailReverse} title="Layout C" miles="2.78"></TrackLayoutBox>
-    </TrackLayoutHorizontalContainer> */ }
+    </TrackLayoutHorizontalContainer> */}
     
     <TrackLayoutHorizontalContainer>
       <TrackConditionsBox title="Sunrise" time="08:25" conditions="Sunny"></TrackConditionsBox>

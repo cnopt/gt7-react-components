@@ -6,6 +6,8 @@ import {AiOutlineWarning} from "react-icons/ai";
 import {DE} from 'country-flag-icons/react/3x2';
 import '../css/Garage_CarInfoTable.css';
 
+// todo make the icon color/classname dynamic based on whats sent to it
+
 export default function Garage_CarInfoTable(props) {
     const { manufacturer, car, pp, displacement, drivetrain,
             maxpower, maxtorque, weight, aspiration, miles,
@@ -56,15 +58,15 @@ export default function Garage_CarInfoTable(props) {
                         <span className="icon"><SlSpeedometer/></span>
                         {miles}
                     </p>
-                    <p id="oil">
+                    <p id="oil" className="green">
                         <span className="icon"><RiOilLine/></span>
                         {oil_status}
                     </p>
-                    <p id="engine">
+                    <p id="engine" className="green">
                         <span className="icon"><TbEngine/></span>
                         {engine_status}
                     </p>
-                    <p id="warning">
+                    <p id="warning" className="green">
                         <span className="icon"><AiOutlineWarning/></span>
                         {warning_status}
                     </p>

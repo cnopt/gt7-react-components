@@ -1,0 +1,49 @@
+#carvaluation-table {
+    width: 100%;
+}
+    #carvaluation-table-item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #dfe1e2;
+        border-radius: 2px;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-left: 1rem;
+        margin-bottom: 0.5rem;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+    }
+        #carvaluation-table-item .car-details, .valuation-details,
+        .variation-details {
+            display: flex;
+            flex-direction: column;
+        }
+        #carvaluation-table-item .car-details {
+            width: 70%;
+        }
+        #carvaluation-table-item .valuation-details {
+            border-left: 1px solid black;
+            padding-left: 0.75rem;
+            width: 35%;
+        }
+        #carvaluation-table-item .variation-details {
+            border-left: 1px solid black;
+            padding-left: 0.75rem;
+            width: 25%;
+        }
+            .car-details .manufacturer, .valuation-heading, .variation-heading {
+                font-family: helv;
+                font-size: 0.6em;
+            }
+            .car, .variation, .valuation {
+                font-family: helv-md;
+                font-size: 1em;
+            }
+                .valuation::before {
+                    content:"Cr. ";
+                    font-size:0.7em;
+                    opacity: 0.5;
+                }
+                .variation::after {
+                    content:"%"
+                }

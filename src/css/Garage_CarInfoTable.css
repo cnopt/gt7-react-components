@@ -81,6 +81,9 @@
         text-align: center;
         font-size: 1.5em;
     }
+    .green {
+        color:#00e676;
+    }
     
 
 
@@ -91,42 +94,42 @@
     #garage-carinfotable {
         width: 100%;
     }
-    #garage-carinfotable-upper-row {
-        display: flex;
-        justify-content: space-between;
-    }
-    #garage-carinfotable-upper-row #car {
-        display: inline-block;
-    }
+        #garage-carinfotable-upper-row {
+            display: flex;
+            justify-content: space-between;
+        }
+            #garage-carinfotable-upper-row #car {
+                display: inline-block;
+            }
     #garage-carinfotable-middle table {
         width: 100%;
         padding-top: 0.75rem;
     }
-    #garage-carinfotable-middle table tr {
-        display: table-row;
-        vertical-align: baseline;
-    }
-    #garage-carinfotable-middle table tr td:not(:first-child) {
-        padding-top:0.25rem; 
-        padding-bottom: 0.25rem;  
-    }
+        #garage-carinfotable-middle table tr {
+            display: table-row;
+            vertical-align: baseline;
+        }
+            #garage-carinfotable-middle table tr td:not(:first-child) {
+                padding-top:0.25rem; 
+                padding-bottom: 0.25rem;  
+            }
     #garage-carinfotable-lower {
         display: block;
     }
-    #garage-carinfotable-lower p {
-        display: -ms-inline-grid;
-    }
-    #miles, #engine, #warning, #oil {
-        width: 50%;
-        display: inline-block;
-    }
-    #garage-carinfotable-lower p {
-        margin-bottom: 0.45rem;
-    }
-    #garage-carinfotable-lower p .icon {
-        display: inline;
-        padding-right: 0.25rem;
-        font-size: 1em;
-        vertical-align: middle;
-    }
+        #garage-carinfotable-lower p {
+            display: -ms-inline-grid;
+        }
+        #miles, #engine, #warning, #oil {
+            width: 50%;
+            display: inline-block;
+        }
+        #garage-carinfotable-lower p {
+            margin-bottom: 0.45rem;
+        }
+        #garage-carinfotable-lower p .icon {
+            display: inline;
+            padding-right: 0.25rem;
+            font-size: 1em;
+            vertical-align: middle;
+        }
 }

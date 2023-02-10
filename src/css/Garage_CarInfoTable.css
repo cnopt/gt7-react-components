@@ -59,7 +59,7 @@
 #garage-carinfotable-lower {
     display: flex;
     justify-content: space-between;
-    padding-top: 0.75rem;
+    padding-top: 0.65rem;
 }
     #garage-carinfotable-lower #miles::after {
         content: " miles";
@@ -70,3 +70,50 @@
         font-size: 0.75em;
         opacity: 0.6;
     }
+    #garage-carinfotable-lower p .icon {
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+
+
+
+
+
+@media screen and (max-width:440px) {
+    #garage-carinfotable {
+        width: 100%;
+    }
+    #garage-carinfotable-middle table {
+        width: 100%;
+        padding-top: 0.75rem;
+    }
+    #garage-carinfotable-middle table tr {
+        display: table-row;
+        vertical-align: baseline;
+    }
+    #garage-carinfotable-middle table tr td:not(:first-child) {
+        padding-top:0.25rem; 
+        padding-bottom: 0.25rem;  
+    }
+    #garage-carinfotable-lower {
+        display: block;
+    }
+    #garage-carinfotable-lower p {
+        display: -ms-inline-grid;
+    }
+    #miles, #engine, #warning, #oil {
+        width: 50%;
+        display: inline-block;
+    }
+    #garage-carinfotable-lower p {
+        margin-bottom: 0.45rem;
+    }
+    #garage-carinfotable-lower p .icon {
+        display: inline;
+        padding-right: 0.25rem;
+        font-size: 1em;
+        vertical-align: middle;
+    }
+}

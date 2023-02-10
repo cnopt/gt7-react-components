@@ -1,4 +1,8 @@
 import React from "react";
+import {SlSpeedometer} from "react-icons/sl";
+import {RiOilLine} from "react-icons/ri";
+import {TbEngine} from "react-icons/tb";
+import {AiOutlineWarning} from "react-icons/ai";
 import '../css/Garage_CarInfoTable.css';
 
 export default function Garage_CarInfoTable(props) {
@@ -42,10 +46,22 @@ export default function Garage_CarInfoTable(props) {
                     </table>
                 </div>
                 <div id="garage-carinfotable-lower">
-                    <p id="miles">{miles}</p>
-                    <p id="oil">{oil_status}</p>
-                    <p id="engine">{engine_status}</p>
-                    <p id="warning">{warning_status}</p>
+                    <p id="miles">
+                        <span className="icon"><SlSpeedometer/></span>
+                        {miles}
+                    </p>
+                    <p id="oil">
+                        <span className="icon"><RiOilLine/></span>
+                        {oil_status}
+                    </p>
+                    <p id="engine">
+                        <span className="icon"><TbEngine/></span>
+                        {engine_status}
+                    </p>
+                    <p id="warning">
+                        <span className="icon"><AiOutlineWarning/></span>
+                        {warning_status}
+                    </p>
                 </div>
             </div>
         </>

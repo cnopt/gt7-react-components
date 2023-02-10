@@ -3,6 +3,7 @@ import {SlSpeedometer} from "react-icons/sl";
 import {RiOilLine} from "react-icons/ri";
 import {TbEngine} from "react-icons/tb";
 import {AiOutlineWarning} from "react-icons/ai";
+import {DE} from 'country-flag-icons/react/3x2';
 import '../css/Garage_CarInfoTable.css';
 
 export default function Garage_CarInfoTable(props) {
@@ -13,9 +14,14 @@ export default function Garage_CarInfoTable(props) {
         <>
             <div id="garage-carinfotable">
                 <div id="garage-carinfotable-upper">
-                    <p id="manufacturer">{manufacturer}</p>
-                    <p id="car">{car}</p>
-                    <p id="pp">{pp}</p>
+                    <p id="manufacturer">
+                        <span className="flag"><DE/></span>
+                        {manufacturer}
+                    </p>
+                    <div id="garage-carinfotable-upper-row">
+                        <p id="car">{car}</p>
+                        <p id="pp">{pp}</p>
+                    </div>
                 </div>
                 <div id="garage-carinfotable-middle">
                     <table>

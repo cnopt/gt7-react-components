@@ -6,6 +6,12 @@
 #garage-carinfotable-upper {
     padding-bottom: 0.5rem;
 }
+    #garage-carinfotable-upper #manufacturer .flag {
+        display: inline-block;
+        width: 1.25em;
+        vertical-align: top;
+        padding-right: 0.45rem;
+    }
     #garage-carinfotable-upper #manufacturer {
         font-family: 'helv-md';
         font-size: 0.9em;
@@ -81,9 +87,16 @@
 
 
 
-@media screen and (max-width:440px) {
+@media screen and (max-width:480px) {
     #garage-carinfotable {
         width: 100%;
+    }
+    #garage-carinfotable-upper-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    #garage-carinfotable-upper-row #car {
+        display: inline-block;
     }
     #garage-carinfotable-middle table {
         width: 100%;

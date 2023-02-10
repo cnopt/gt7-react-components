@@ -66,7 +66,6 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       drivetrain="FR" maxpower="401 BHP / 9,200 rpm" maxtorque="37.3 kgfm / 6,000 rpm"
       weight="1,209 kg" aspiration="NA (Naturally Aspirated)" miles="52,773"
       oil_status="Excellent" engine_status="Excellent" warning_status="Excellent">
-
     </Garage_CarInfoTable>
 
   </>

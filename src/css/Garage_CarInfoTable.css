@@ -1,0 +1,72 @@
+#garage-carinfotable {
+    width: 20rem;
+    color:white
+}
+
+#garage-carinfotable-upper {
+    padding-bottom: 0.5rem;
+}
+    #garage-carinfotable-upper #manufacturer {
+        font-family: 'helv-md';
+        font-size: 0.9em;
+        margin: 0;
+    }
+    #garage-carinfotable-upper #car {
+        font-family: 'helv-md';
+        font-size: 1.1em;
+        margin-top:0.55rem;
+    }
+    #garage-carinfotable-upper #pp::before {
+        content:"PP "
+    }
+    #garage-carinfotable-upper #pp {
+        font-family: helv;
+        font-size: 0.8em;
+        border:1px solid white;
+        display: inline-block;
+        padding:0.5rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        border-radius: 50px;
+        margin-top: 0;
+    }
+
+#garage-carinfotable-middle table {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+}
+    #garage-carinfotable-middle table tr {
+        padding-bottom: 0.65rem;
+        display: inline-grid;
+        padding-right: 0.75rem;
+    }
+    #garage-carinfotable-middle table tr th {
+        font-family: helv;
+        font-weight: normal;
+        text-align: left;
+        font-size: 0.75em;
+        opacity: 0.6;
+        padding-right: 1rem;
+        padding-bottom: 0.1rem;
+    }
+    #garage-carinfotable-middle table tr td {
+        font-family: helv-md;
+        font-size: 0.9em;
+    }
+
+#garage-carinfotable-lower {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+}
+    #garage-carinfotable-lower #miles::after {
+        content: " miles";
+    }
+    #garage-carinfotable-lower #miles,
+    #oil, #engine, #warning {
+        font-family: helv;
+        font-size: 0.75em;
+        opacity: 0.6;
+    }

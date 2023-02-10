@@ -19,6 +19,7 @@ import GTTrackMap                           from "./comps/GTTrackMap.jsx";
 import TrackLayoutHorizontalContainer       from "./comps/TrackLayoutHorizontalContainer.jsx";
 import TrackLayoutBox                       from "./comps/TrackLayoutBox.jsx";
 import TrackConditionsBox                   from "./comps/TrackConditionsBox.jsx";
+import Garage_CarInfoTable                  from "./comps/Garage_CarInfoTable.jsx";  
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -59,6 +60,14 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       <TrackConditionsBox title="Evening" time="18:00" conditions="Fine Weather"></TrackConditionsBox>
       <TrackConditionsBox title="Sunset"  time="20:20" conditions="Sunny"></TrackConditionsBox>
     </TrackLayoutHorizontalContainer> */}
+
+    <Garage_CarInfoTable 
+      manufacturer="BMW" car="M3 '03" pp="591.63" displacement="3,327cc"
+      drivetrain="FR" maxpower="401 BHP / 9,200 rpm" maxtorque="37.3 kgfm / 6,000 rpm"
+      weight="1,209 kg" aspiration="NA (Naturally Aspirated)" miles="52,773"
+      oil_status="Excellent" engine_status="Excellent" warning_status="Excellent">
+
+    </Garage_CarInfoTable>
 
   </>
 );

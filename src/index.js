@@ -21,9 +21,12 @@ import TrackLayoutHorizontalContainer       from "./comps/TrackLayoutHorizontalC
 import TrackLayoutBox                       from "./comps/TrackLayoutBox.jsx";
 import TrackConditionsBox                   from "./comps/TrackConditionsBox.jsx";
 import Garage_CarInfoTable                  from "./comps/Garage_CarInfoTable.jsx";
-import CarValuation                         from "./comps/CarValuation.jsx"; 
+import CarValuation                         from "./comps/CarValuation.jsx";
 import CarValuationTableItem                from "./comps/CarValuationTableItem.jsx";
-import CarValuationCard                     from "./comps/CarValuationCard";    
+import CarValuationCard                     from "./comps/CarValuationCard.jsx";
+import CarPerformanceCard                   from "./comps/CarPerformanceCard.jsx";
+import CarPerformanceCard_Upper             from "./comps/CarPerformanceCard_Upper.jsx";
+import CarPerformanceCard_Table             from "./comps/CarPerformanceCard_Table.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -78,9 +81,22 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       <CarValuationTableItem manufacturer="Toyota" valuation="4,600" variation="5.5">Aqua S '11</CarValuationTableItem>
     </CarValuation> */}
 
-    <CarValuationCard 
+    {/* <CarValuationCard 
       manufacturer="Honda" car="Civic Type R (EK) '98" img={civic} pp="606.41" miles="17">
-    </CarValuationCard>
+    </CarValuationCard> */}
+
+    <CarPerformanceCard>
+      <CarPerformanceCard_Upper
+        manufacturer="Honda" car="Civic Type R (EK) '98" img={civic} pp="606.41"
+        engine="K20C1-Civic-'20">
+      </CarPerformanceCard_Upper>
+      <CarPerformanceCard_Table
+        displacement="2,095" drivetrain="FF" weight="968" maxpower="508"
+        maxtorque="54.0" weight2power="1.87" oil_status="Excellent" 
+        engine_status="Excellent" warning_status="Excellent" miles="17">
+      </CarPerformanceCard_Table>
+    </CarPerformanceCard>
+
 
 
   </>

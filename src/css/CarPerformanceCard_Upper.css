@@ -1,0 +1,13 @@
+#carperformance-card-upper {
+    color:white;
+}
+    #carperformance-card-upper .manufacturer {
+        font-family: helv;
+        font-size: 0.9em;
+    }
+    #carperformance-card-upper .manufacturer .flag {
+        display: inline-block;
+        width: 1.25em;
+        vertical-align: top;
+        padding-right: 0.45rem;
+    }

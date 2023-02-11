@@ -9,34 +9,34 @@ export default function CarPerformanceCard_Table(props) {
             <div id="carperformance-card-table">
                 <table>
                     <tr>
-                        <th>Specs</th>
+                        <th className="header-separator">Specs</th>
                     </tr>
                     <tr>
                         <th>Displacement</th>
-                        <tr>{displacement}</tr>
+                        <td className="displacement">{displacement}</td>
                     </tr>
                     <tr>
                         <th>Drivetrain</th>
-                        <tr>{drivetrain}</tr>
+                        <td className="drivetrain">{drivetrain}</td>
                     </tr>
                     <tr>
                         <th>Weight</th>
-                        <tr>{weight}</tr>
+                        <td className="weight">{weight}</td>
                     </tr>
                     <tr>
                         <th>Max. Power</th>
-                        <tr>{maxpower}</tr>
+                        <td className="maxpower">{maxpower}</td>
                     </tr>
                     <tr>
                         <th>Max. Torque</th>
-                        <tr>{maxtorque}</tr>
+                        <td className="maxtorque">{maxtorque}</td>
                     </tr>
                     <tr>
                         <th>Weight-to-Power Ratio</th>
-                        <tr>{weight2power}</tr>
+                        <td className="weight2power">{weight2power}</td>
                     </tr>
                     <tr>
-                        <th>Condition</th>
+                        <th className="header-separator">Condition</th>
                     </tr>
                     <tr>
                         <p>{miles}</p>

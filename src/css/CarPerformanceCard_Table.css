@@ -1,0 +1,56 @@
+#carperformance-card {
+    width:19rem;
+}
+
+#carperformance-card-table table {
+    color:white;
+    font-family: helv;
+    width: 100%;
+}
+    #carperformance-card-table table tr {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+        #carperformance-card-table table tr th {
+            font-weight: normal;
+            font-size: 0.9em;
+            vertical-align: middle;
+            opacity: 0.65;
+        }
+        #carperformance-card-table table tr th.header-separator {
+            font-family: helv;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 0.2rem;
+            border-bottom: 1px solid white;
+        }
+        #carperformance-card-table table tr td {
+            font-family: helv-md;
+        }
+        #carperformance-card-table table tr td.displacement::after {
+            content:" cc";
+            font-size: 0.85em;
+            opacity: 0.65;
+        }
+        #carperformance-card-table table tr td.weight::after {
+            content:" kg";
+            font-size: 0.85em;
+            opacity: 0.65;
+        }
+        #carperformance-card-table table tr td.maxpower::after {
+            content:" BHP";
+            font-size: 0.85em;
+            opacity: 0.65;
+        }
+        #carperformance-card-table table tr td.maxtorque::after {
+            content:" kgfm";
+            font-size: 0.85em;
+            opacity: 0.65;
+        }
+        #carperformance-card-table table tr td.weight2power::after {
+            content:" kg/PS";
+            font-size: 0.85em;
+            opacity: 0.65;
+        }

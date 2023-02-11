@@ -47,3 +47,34 @@
                 .variation::after {
                     content:"%"
                 }
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    #carvaluation-table-item {
+        display: block;
+        padding-left: 0.85rem;
+    }
+        #carvaluation-table-item .car-details {
+            padding-bottom: 0.25rem;
+            width: 90%;
+        }
+        #carvaluation-table-item .valuation-details, .variation-details {
+            width: 50%;
+        }
+        .valuation-details, .variation-details {
+            border-left: none;
+            display: inline-block;
+            border-left: none;
+            padding-left: 0;
+        }
+        .valuation-heading {
+            display: block;
+        }
+        .variation-heading {
+            display: block;
+        }
+}

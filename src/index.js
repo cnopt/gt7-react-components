@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import "../src/style.css";
 import dragonTrailReverse                   from "./track-img/dragon.png";
+import civic                                from "./car-img/ek.png";
 import InputField                           from "./comps/InputField.jsx";
 import Dropdown                             from "./comps/Dropdown.jsx";
 import Button                               from "./comps/Button.jsx";
@@ -22,6 +23,7 @@ import TrackConditionsBox                   from "./comps/TrackConditionsBox.jsx
 import Garage_CarInfoTable                  from "./comps/Garage_CarInfoTable.jsx";
 import CarValuation                         from "./comps/CarValuation.jsx"; 
 import CarValuationTableItem                from "./comps/CarValuationTableItem.jsx";
+import CarValuationCard                     from "./comps/CarValuationCard";    
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -70,11 +72,16 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       oil_status="Excellent" engine_status="Excellent" warning_status="Excellent">
     </Garage_CarInfoTable> */}
 
-    <CarValuation>
+    {/* <CarValuation>
       <CarValuationTableItem manufacturer="Nissan" valuation="75,130" variation="8.8">GT-R Nismo '17</CarValuationTableItem>
       <CarValuationTableItem manufacturer="Nissan" valuation="14,380" variation="8.0">Silvia Q's (S13) '88</CarValuationTableItem>
       <CarValuationTableItem manufacturer="Toyota" valuation="4,600" variation="5.5">Aqua S '11</CarValuationTableItem>
-    </CarValuation>
+    </CarValuation> */}
+
+    <CarValuationCard 
+      manufacturer="Honda" car="Civic Type R (EK) '98" img={civic} pp="606.41" miles="17">
+    </CarValuationCard>
+
 
   </>
 );

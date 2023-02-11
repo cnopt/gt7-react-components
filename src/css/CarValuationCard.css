@@ -1,0 +1,62 @@
+#carvaluation-card {
+    width: 15rem;
+    margin: auto;
+    background: rgb(239,241,242);
+    background: linear-gradient(180deg, rgba(239,241,242,1) 0%, rgba(206,208,209,1) 100%);
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 40%);
+    text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 1.5rem;
+}
+    #carvaluation-card #car-img {
+        width: 10rem;
+        margin-top: 1rem;
+        padding:0;
+        margin: auto;
+    }
+        #carvaluation-card #car-img img {
+            width: 100%
+        }
+    #carvaluation-card #car-details {
+        font-family: helv;
+        padding-top: 0.55rem;
+    }
+        #carvaluation-card #car-details .manufacturer {
+            font-size:0.8em;
+            margin: 0;
+        }
+        #carvaluation-card #car-details .car {
+            font-family: helv-md;
+            font-size:0.9em;
+            margin:0;
+            padding-top: 0.5rem;
+        }
+        #carvaluation-card #car-details .pp::before {
+            content:"PP "
+        }
+        #carvaluation-card #car-details .pp {
+            font-size: 0.8em;
+            font-family:helv-md;
+            display: inline-block;
+            border:1px solid black;
+            padding:0.25rem;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            border-radius: 50px;
+        }
+        #carvaluation-card #car-details .miles::after {
+            content:" miles"
+        }
+        #carvaluation-card #car-details .miles {
+            font-family: helv-md;
+            font-size: 0.9em;
+            margin: 0;
+            padding-bottom: 1.25rem;
+        }
+            #carvaluation-card #car-details .miles svg {
+                vertical-align: middle;
+                padding-right: 0.5rem;
+            }
+    

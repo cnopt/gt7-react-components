@@ -1,6 +1,8 @@
 {
+  "homepage": "https://cnopt.github.io/gt7-react-components",
   "dependencies": {
     "country-flag-icons": "^1.5.5",
+    "gh-pages": "^5.0.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-icons": "^4.7.1",
@@ -10,7 +12,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [

@@ -5,6 +5,7 @@ import {TbEngine} from "react-icons/tb";
 import {AiOutlineWarning} from "react-icons/ai";
 import {DE} from 'country-flag-icons/react/3x2';
 import '../css/Garage_CarInfoTable.css';
+import CarPerformanceCard_Statuses from "./CarPerformanceCard_Statuses.jsx";
 
 // todo make the icon color/classname dynamic based on whats sent to it
 
@@ -53,24 +54,12 @@ export default function Garage_CarInfoTable(props) {
                         </tr>
                     </table>
                 </div>
-                <div id="garage-carinfotable-lower">
-                    <p id="miles">
-                        <span className="icon"><SlSpeedometer/></span>
-                        {miles}
-                    </p>
-                    <p id="oil" className="green">
-                        <span className="icon"><RiOilLine/></span>
-                        {oil_status}
-                    </p>
-                    <p id="engine" className="green">
-                        <span className="icon"><TbEngine/></span>
-                        {engine_status}
-                    </p>
-                    <p id="warning" className="green">
-                        <span className="icon"><AiOutlineWarning/></span>
-                        {warning_status}
-                    </p>
-                </div>
+                <CarPerformanceCard_Statuses
+                    oil_status="Excellent" 
+                    engine_status="Excellent" 
+                    warning_status="Excellent" 
+                    miles="17">
+                </CarPerformanceCard_Statuses>
             </div>
         </>
     )

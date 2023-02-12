@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import "../src/style.css";
 import dragonTrailReverse                   from "./track-img/dragon.png";
 import civic                                from "./car-img/ek.png";
+import civicdark                            from "./car-img/ek-dark.png";
 import InputField                           from "./comps/InputField.jsx";
 import Dropdown                             from "./comps/Dropdown.jsx";
 import Button                               from "./comps/Button.jsx";
@@ -87,13 +88,19 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
 
     <CarPerformanceCard>
       <CarPerformanceCard_Upper
-        manufacturer="Honda" car="Civic Type R (EK) '98" img={civic} pp="606.41"
+        manufacturer="Honda" 
+        car="Civic Type R (EK) '98" 
+        img={civicdark} 
+        pp="606.41"
         engine="K20C1-Civic-'20">
       </CarPerformanceCard_Upper>
       <CarPerformanceCard_Table
-        displacement="2,095" drivetrain="FF" weight="968" maxpower="508"
-        maxtorque="54.0" weight2power="1.87" oil_status="Excellent" 
-        engine_status="Excellent" warning_status="Excellent" miles="17">
+        displacement="2,095" 
+        drivetrain="FF" 
+        weight="968" 
+        maxpower="508"
+        maxtorque="54.0" 
+        weight2power="1.87">
       </CarPerformanceCard_Table>
     </CarPerformanceCard>
 

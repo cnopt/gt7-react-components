@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/CarPerformanceCard_Table.css';
+import CarPerformanceCard_Statuses from "./CarPerformanceCard_Statuses.jsx";
 
 export default function CarPerformanceCard_Table(props) {
     const {displacement, drivetrain, weight, maxpower, maxtorque,
@@ -38,12 +39,12 @@ export default function CarPerformanceCard_Table(props) {
                     <tr>
                         <th className="header-separator">Condition</th>
                     </tr>
-                    <tr>
-                        <p>{miles}</p>
-                        <p>{oil_status}</p>
-                        <p>{engine_status}</p>
-                        <p>{warning_status}</p>
-                    </tr>
+                    <CarPerformanceCard_Statuses
+                        oil_status="Excellent" 
+                        engine_status="Excellent" 
+                        warning_status="Excellent" 
+                        miles="17">
+                    </CarPerformanceCard_Statuses>
                 </table>
             </div>
         </>

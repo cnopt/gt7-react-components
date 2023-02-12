@@ -1,13 +1,55 @@
 #carperformance-card-upper {
     color:white;
 }
-    #carperformance-card-upper .manufacturer {
+    #car-details-row {
+        display: flex;
+        justify-content: space-between;
+    }
+    #car-details-row .manufacturer {
         font-family: helv;
         font-size: 0.9em;
     }
-    #carperformance-card-upper .manufacturer .flag {
+    #car-details-row .manufacturer .flag {
         display: inline-block;
         width: 1.25em;
         vertical-align: top;
         padding-right: 0.45rem;
+    }
+    #car-details-row .pp.filled {
+        font-family: helv-md;
+        font-size: 0.85em;
+        padding-top: 0.15rem;
+        padding-bottom: 0.15rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+        color:black;
+        background-color: white;
+        border-radius: 50px;
+    }
+        #car-details-row .pp::before {
+            content: "PP "
+        }
+
+#carperformance-card-upper #car-img {
+    width: 100%;
+}
+#carperformance-card-upper #car-img img {
+    width: 100%;
+}
+
+#carperformance-card-upper .car {
+    font-family: helv-md;
+    font-size: 0.85em;
+    margin-bottom: 0;
+}
+
+#carperformance-card-upper .engineModel {
+    font-family: helv-md;
+    font-size: 0.85em;
+    margin-top: 0;
+    padding-top: 0.5rem;
+    margin-bottom: 0.15rem;
+}
+    #carperformance-card-upper .engineModel span {
+        opacity: 0.65;
     }

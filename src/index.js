@@ -28,6 +28,8 @@ import CarValuationCard                     from "./comps/CarValuationCard.jsx";
 import CarPerformanceCard                   from "./comps/CarPerformanceCard.jsx";
 import CarPerformanceCard_Upper             from "./comps/CarPerformanceCard_Upper.jsx";
 import CarPerformanceCard_Table             from "./comps/CarPerformanceCard_Table.jsx";
+import TuningValuationComboBox              from "./comps/TuningValuationComboBox.jsx";
+import TodaysValueBox                       from "./comps/TodaysValueBox.jsx"; 
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -69,12 +71,12 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       <TrackConditionsBox title="Sunset"  time="20:20" conditions="Sunny"></TrackConditionsBox>
     </TrackLayoutHorizontalContainer> */}
 
-    <Garage_CarInfoTable 
+    {/* <Garage_CarInfoTable 
       manufacturer="BMW" car="M3 '03" pp="591.63" displacement="3,327cc"
       drivetrain="FR" maxpower="401 BHP / 9,200 rpm" maxtorque="37.3 kgfm / 6,000 rpm"
       weight="1,209 kg" aspiration="NA (Naturally Aspirated)" miles="52,773"
       oil_status="Excellent" engine_status="Excellent" warning_status="Excellent">
-    </Garage_CarInfoTable>
+    </Garage_CarInfoTable> */}
 
     {/* <CarValuation>
       <CarValuationTableItem manufacturer="Nissan" valuation="75,130" variation="8.8">GT-R Nismo '17</CarValuationTableItem>
@@ -103,6 +105,17 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
         weight2power="1.87">
       </CarPerformanceCard_Table>
     </CarPerformanceCard> */}
+
+    <TuningValuationComboBox
+      tuningValue="48,800"
+      bodyValue="27,240"
+      variation="0.3">
+    </TuningValuationComboBox>
+
+    <TodaysValueBox
+        tuningValue="48800"
+        bodyValue="27240">
+    </TodaysValueBox>
 
 
 

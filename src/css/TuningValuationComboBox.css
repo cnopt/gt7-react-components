@@ -1,0 +1,70 @@
+#tuningvaluation-combo-box {
+    width: 16rem;
+    background: rgb(201,202,203);
+    background: linear-gradient(180deg, rgba(201,202,203,1) 0%, rgba(188,189,191,1) 100%);
+    border-radius: 8px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.95rem;
+    padding-right: 0.95rem;
+    margin: 0.5rem;
+    position: relative;
+    z-index: 1;
+}
+    #tuningvaluation-combo-box::after {
+        content: "?";
+        font-family: helv-md;
+        font-size: 1.15em;
+        color:rgb(201,202,203);
+        background-color: rgb(28, 28, 28);
+        border-radius: 100%;
+        padding-left: 0.55rem;
+        padding-right: 0.55rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        position: absolute;
+        z-index: 2;
+        right: 0.5rem;
+        top: 0.5rem;
+    }
+
+#tuning-valuation {
+    padding-bottom: 1rem;
+}
+
+    #tuning-valuation table tr th p, #body-valuation table tr th p {
+        font-family: helv;
+        font-size: 0.8em;
+        display: inline;
+        vertical-align: text-top;
+    }
+
+    #tuning-valuation table tr th svg, #body-valuation table tr th svg {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 0.45rem;
+        width: 1rem;
+    }
+
+    #tuning-valuation table tr td::before, #body-valuation table tr td::before {
+        content:"Cr. ";
+        font-size: 0.6em;
+        padding-right: 0.25rem;
+    }
+        #tuning-valuation table tr td, #body-valuation table tr td {
+            font-family: helv;
+            font-size: 1.5em;
+        }
+
+    #variation {
+        font-family: helv;
+        font-size: 0.8em;
+    }
+        #variation span {
+            font-family: helv-md;
+            font-size: 1.15em;
+            padding-left: 0.15rem;
+        }
+            #variation span::after {
+                content: "%▲"
+            }

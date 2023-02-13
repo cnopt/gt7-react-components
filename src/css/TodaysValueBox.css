@@ -1,0 +1,44 @@
+#todaysvalue-box {
+    width: 16rem;
+    border-radius: 8px;
+    padding-top: 0.25rem;
+    padding-bottom: 1rem;
+    padding-left: 0.95rem;
+    padding-right: 0.95rem;
+    background-color: #b1b9d2;
+    margin: 0.5rem;
+}
+
+#todaysvalue-box table {
+    width: 100%;
+}
+
+#todaysvalue-box table tr th #icons-div {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+#todaysvalue-box table tr th {
+    display: flex;
+    justify-content: space-between;
+}
+#todaysvalue-box table tr th p {
+    font-family: helv;
+    font-size: 0.8em;
+    display: inline;
+    vertical-align: text-top;
+}
+#todaysvalue-box table tr th svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1rem;
+}
+#todaysvalue-box table tr td::before {
+    content:"Cr. ";
+    font-size: 0.6em;
+    padding-right: 0.25rem;
+}
+#todaysvalue-box table tr td {
+    font-family: helv-md;
+    font-size: 1.5em;
+}

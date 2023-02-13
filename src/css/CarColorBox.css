@@ -1,10 +1,13 @@
 #carcolor-box {
     border:1px solid #dcdcdc;
-    width: 4rem;
+    width: 4.5rem;
+    margin-left:0.5rem;
+    margin-right: 1rem;
+    height: 6.5rem;
 }
     #carcolor-box #color {
-        width: 100%;
-        height: 4.5rem;
+        width: 4.5rem;
+        height: 5.5rem;
         background-color: rgb(44, 68, 43);
     }
     #carcolor-box #color-text {

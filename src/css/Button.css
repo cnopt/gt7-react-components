@@ -1,4 +1,4 @@
-button {
+#button-dark button {
   border-radius: 25px;
   padding-left: 2.25rem;
   padding-right: 2.25rem;
@@ -18,6 +18,6 @@ button {
   font-family: 'helv-md';
   font-size: 0.8em;
 }
-button:hover {
+#button-dark button:hover {
   border: 3px solid #c4c6c7;
 }

@@ -120,7 +120,7 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
 
     <CarPurchaseBox
       car="Lancer Evolution Final Gr.B Road Car"
-      color="White Pearl"
+      color="YXA Green"
       credits="300,000">
     </CarPurchaseBox>
 

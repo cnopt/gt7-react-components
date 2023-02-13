@@ -5,7 +5,9 @@ export default function Button(props) {
   const {children} = props;
   return (
     <>
-      <button>{children}</button>
+      <div id="button-dark">
+        <button>{children}</button>
+      </div>
     </>
   );
 }

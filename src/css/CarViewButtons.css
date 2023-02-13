@@ -1,7 +1,9 @@
 #carview-buttons {
     border:1px solid #dcdcdc;
-    display: inline-block;
     border-radius: 8px;
+    width: 8.75rem;
+    height: 2.15rem;
+    margin-right: 1rem;
 }
     #carview-buttons #carview-landscape {
         border-right: 1px solid #dcdcdc;
@@ -17,7 +19,7 @@
         #carview-buttons #carview-landscape svg, #carview-studio svg {
             color:#cbcbcb;
             margin: 0;
-            width: 1.25rem;
+            width: 1.36rem;
         }
     #carview-buttons #carview-landscape:hover {
         background-color: #dcdcdc;

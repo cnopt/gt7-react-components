@@ -1,0 +1,13 @@
+#carpurchase-box {
+    display: flex;
+}
+    #carpurchase-box table {
+        display: flex;
+        flex-flow: column;
+    }
+    #carpurchase-box table tr {
+
+    }
+    #carpurchase-box table #second-row {
+        display: flex;
+    }

@@ -1,5 +1,7 @@
 #carnameandcolor-box {
     color:#dcdcdc;
+    margin-bottom: 1.25rem;
+    margin-top: 0;
 }
     #carnameandcolor-box #car-name {
         font-family: helv-md;

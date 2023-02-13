@@ -1,0 +1,19 @@
+#button-dark-invertonhover button {
+    width: 10rem;
+    border-radius: 25px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background: #2f2f2f;
+    border: 1px solid #dcdcdc;
+    color: #dcdcdc;
+    cursor: pointer;
+    font-family: 'helv-md';
+    font-size: 0.8em;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  #button-dark-invertonhover button:hover {
+    background: #dcdcdc;
+    color:#2f2f2f;
+  }

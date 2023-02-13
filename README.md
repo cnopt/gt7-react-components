@@ -6,7 +6,7 @@
 ![license](https://img.shields.io/github/license/cnopt/gt7-react-components?logo=github)
 ![website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Fcnopt.github.io%2Fgt7-react-components)
 
-![preview](https://img.shields.io/badge/Preview%20Online-purple?logo=github&?link=https://google.com)
+![preview](https://img.shields.io/badge/Open%20Online%20Preview-purple?link=https://cnopt.github.io/gt7-react-components/&logo=github)
 
 -----
 ### Gran Turismo 7 UI React Components

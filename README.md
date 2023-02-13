@@ -1,0 +1,3 @@
+[![CI/CD](https://github.com/cnopt/gt7-react-components/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/cnopt/gt7-react-components/actions/workflows/node.js.yml)
+
+[![pages-deployment](https://github.com/cnopt/gt7-react-components/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/cnopt/gt7-react-components/actions/workflows/pages/pages-build-deployment)

@@ -1,0 +1,40 @@
+#carview-buttons {
+    border:1px solid #dcdcdc;
+    display: inline-block;
+    border-radius: 8px;
+}
+    #carview-buttons #carview-landscape {
+        border-right: 1px solid #dcdcdc;
+    }
+    #carview-buttons #carview-landscape, #carview-studio {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0.35rem;
+        padding-bottom: 0.35rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+        #carview-buttons #carview-landscape svg, #carview-studio svg {
+            color:#cbcbcb;
+            margin: 0;
+            width: 1.25rem;
+        }
+    #carview-buttons #carview-landscape:hover {
+        background-color: #dcdcdc;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        cursor: pointer;
+    }
+        #carview-buttons #carview-landscape:hover > svg {
+            color:black
+        }
+
+    #carview-buttons #carview-studio:hover {
+        background-color: #dcdcdc;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        cursor: pointer;
+    }
+        #carview-buttons #carview-studio:hover > svg {
+            color:black
+        }

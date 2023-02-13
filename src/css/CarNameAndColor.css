@@ -1,0 +1,15 @@
+#carnameandcolor-box {
+    color:#dcdcdc;
+}
+    #carnameandcolor-box #car-name {
+        font-family: helv-md;
+        margin:0;
+        font-size: 0.9em;
+    }
+    #carnameandcolor-box #car-color {
+        font-family: helv;
+        font-size: 0.8em;
+        opacity: 0.75;
+        margin: 0;
+        padding-top: 0.65rem;
+    }

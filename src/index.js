@@ -29,7 +29,8 @@ import CarPerformanceCard                   from "./comps/CarPerformanceCard.jsx
 import CarPerformanceCard_Upper             from "./comps/CarPerformanceCard_Upper.jsx";
 import CarPerformanceCard_Table             from "./comps/CarPerformanceCard_Table.jsx";
 import TuningValuationComboBox              from "./comps/TuningValuationComboBox.jsx";
-import TodaysValueBox                       from "./comps/TodaysValueBox.jsx"; 
+import TodaysValueBox                       from "./comps/TodaysValueBox.jsx";
+import CarPurchaseBox                       from "./comps/CarPurchaseBox.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -106,17 +107,22 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       </CarPerformanceCard_Table>
     </CarPerformanceCard> */}
 
-    <TuningValuationComboBox
+    {/* <TuningValuationComboBox
       tuningValue="48,800"
       bodyValue="27,240"
       variation="0.3">
-    </TuningValuationComboBox>
+    </TuningValuationComboBox> */}
 
-    <TodaysValueBox
+    {/* <TodaysValueBox
         tuningValue="48800"
         bodyValue="27240">
-    </TodaysValueBox>
+    </TodaysValueBox> */}
 
+    <CarPurchaseBox
+      car="Lancer Evolution Final Gr.B Road Car"
+      color="White Pearl"
+      credits="300,000">
+    </CarPurchaseBox>
 
 
   </>

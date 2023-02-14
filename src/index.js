@@ -31,6 +31,7 @@ import CarPerformanceCard_Table             from "./comps/CarPerformanceCard_Tab
 import TuningValuationComboBox              from "./comps/TuningValuationComboBox.jsx";
 import TodaysValueBox                       from "./comps/TodaysValueBox.jsx";
 import CarPurchaseBox                       from "./comps/CarPurchaseBox.jsx";
+import TrackMenuLeaderboard                 from "./comps/TrackMenuLeaderboard.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -118,12 +119,14 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
         bodyValue="27240">
     </TodaysValueBox> */}
 
-    <CarPurchaseBox
+    {/* <CarPurchaseBox
       car="Lancer Evolution Final Gr.B Road Car"
       color="YXA Green"
       credits="300,000">
-    </CarPurchaseBox>
+    </CarPurchaseBox> */}
 
+    <TrackMenuLeaderboard>
+    </TrackMenuLeaderboard>
 
   </>
 );

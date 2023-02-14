@@ -1,0 +1,46 @@
+#trackmenuleaderboard-item {
+    background-color: #1d2123;
+    padding: 0.33rem;
+    margin-bottom: 0.15rem;
+}
+    #trackmenuleaderboard-item tr {
+        color:#dcdcdc;
+        vertical-align: middle;
+    }
+        #trackmenuleaderboard-item tr td.pos {
+            background-color: #dcdcdc;
+            color:#1d2123;
+            font-family: helv-md;
+            font-size: 1em;
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            padding-top: 0.25rem;
+            padding-bottom: 0.25rem;
+            border-bottom-right-radius: 12px;
+        }
+        #trackmenuleaderboard-item tr td.name {
+            padding-left: 1rem;
+            font-family: helv-md;
+            font-size: 1em;
+            width: 100%;
+            padding-right: 0.75rem;
+        }
+        #trackmenuleaderboard-item tr td.country {
+            padding-right: 1rem;
+        }
+            #trackmenuleaderboard-item tr td.country svg {
+                width: 1.1rem;
+                margin-bottom: 0;
+            }
+        #trackmenuleaderboard-item tr td.time {
+            font-family: helv-md;
+            padding-right: 0.75rem;
+        }
+
+
+
+@media screen and (max-width:450px) {
+    #trackmenuleaderboard {
+        width: 100% !important;
+    }
+}

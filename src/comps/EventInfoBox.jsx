@@ -10,6 +10,7 @@ export default function EventInfoBox(props) {
                 <div id="eventinfo-header">
                     <p className="eventinfo-header-text">Event Info</p>
                 </div>
+                
                 <div id="eventinfobox-inner">
                     <EventInfoDescription
                         desc="Try to finish with a Bronze or better!"

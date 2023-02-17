@@ -33,6 +33,7 @@ import TodaysValueBox                       from "./comps/TodaysValueBox.jsx";
 import CarPurchaseBox                       from "./comps/CarPurchaseBox.jsx";
 import TrackMenuLeaderboard                 from "./comps/TrackMenuLeaderboard.jsx";
 import EventInfoBox                         from "./comps/EventInfoBox.jsx";
+import SettingsBox                          from "./comps/SettingsBox.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -129,7 +130,10 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
     {/* <TrackMenuLeaderboard>
     </TrackMenuLeaderboard> */}
 
-    <EventInfoBox></EventInfoBox>
+    {/* <EventInfoBox></EventInfoBox> */}
+    
+    <SettingsBox setting="Ghost Settings"></SettingsBox>
+
 
   </>
 );

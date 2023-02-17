@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gt7-react-components/static/css/main.4d7d5da6.css",
-    "main.js": "/gt7-react-components/static/js/main.79f4c116.js",
+    "main.js": "/gt7-react-components/static/js/main.172bca11.js",
     "static/media/ek-dark.png": "/gt7-react-components/static/media/ek-dark.60ac9f9a8f4515543b90.png",
     "static/media/ek.png": "/gt7-react-components/static/media/ek.8c69e80f912d5b9e99ab.png",
     "static/media/dragon.png": "/gt7-react-components/static/media/dragon.b756631c1a71c754eb8c.png",
@@ -11,10 +11,10 @@
     "static/media/Helv-R.otf": "/gt7-react-components/static/media/Helv-R.41833cf0d2ff7ab2a686.otf",
     "index.html": "/gt7-react-components/index.html",
     "main.4d7d5da6.css.map": "/gt7-react-components/static/css/main.4d7d5da6.css.map",
-    "main.79f4c116.js.map": "/gt7-react-components/static/js/main.79f4c116.js.map"
+    "main.172bca11.js.map": "/gt7-react-components/static/js/main.172bca11.js.map"
   },
   "entrypoints": [
     "static/css/main.4d7d5da6.css",
-    "static/js/main.79f4c116.js"
+    "static/js/main.172bca11.js"
   ]
 }

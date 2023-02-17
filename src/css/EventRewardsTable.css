@@ -1,0 +1,60 @@
+#eventrewardstable {
+    color:#dcdcdc;
+    width: 100%;
+    padding-top: 2rem;
+}
+    #eventrewardstable table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    #eventrewardstable .title {
+        margin: 0;
+        padding:0;
+        font-family: helv;
+        font-size: 0.9em;
+        opacity: 0.75;
+    }
+        #eventrewardstable table tr {
+            display: flex;
+            border-bottom: 1px solid #d2d2d2;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            align-items: center;        
+        }
+        #eventrewardstable table tr:last-of-type {
+            border: none;
+        }
+        #eventrewardstable table tr th {
+            font-family: helv;
+            font-size: 1.75em;
+            width: 50%;
+            text-align: left;
+        }
+        #eventrewardstable table tr th svg {
+            display: inline-block;
+            width: 1.25rem;
+            vertical-align: middle;
+            margin: 0;
+            padding: 0;
+            padding-right: 1rem;
+        }
+        #eventrewardstable table tr td:before {
+            content:"Cr. ";
+            font-size: 0.75em;
+            padding-right: 0.25rem;
+        }
+        #eventrewardstable table tr td {
+            font-family: helv;
+            font-size: 1.25em;
+            width:5rem;
+        }
+        #eventrewardstable table tr .goldTime svg {
+            color: #dfbf70;
+        }
+        #eventrewardstable table tr .silverTime svg {
+            color:#c4c4c7;
+        }
+        #eventrewardstable table tr .bronzeTime svg {
+            color:#deac93;
+        }

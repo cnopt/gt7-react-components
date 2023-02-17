@@ -1,0 +1,18 @@
+#eventinfodescription {
+    color:#dcdcdc;
+}
+    #eventinfodescription .desc {
+        font-family: helv-md;
+        font-size: 1.2em;
+        color:#67acdf;
+    }
+    #eventinfodescription .fail-cond-title {
+        font-family: helv;
+        font-size: 0.9em;
+        opacity: 0.75;
+        padding-top: 1rem;
+    }
+    #eventinfodescription .fail-cond {
+        font-family: helv;
+        font-size: 1em;
+    }

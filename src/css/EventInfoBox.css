@@ -1,0 +1,27 @@
+#eventinfobox {
+    width: 36rem;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+#eventinfobox #eventinfo-header {
+    font-family: helv-md;
+    background-color: #212121;
+    font-size: 0.9em;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+#eventinfobox #eventinfo-header .eventinfo-header-text {
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin: 0;
+    color:#dcdcdc;
+}
+
+#eventinfobox-inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}

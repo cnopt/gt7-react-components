@@ -32,6 +32,7 @@ import TuningValuationComboBox              from "./comps/TuningValuationComboBo
 import TodaysValueBox                       from "./comps/TodaysValueBox.jsx";
 import CarPurchaseBox                       from "./comps/CarPurchaseBox.jsx";
 import TrackMenuLeaderboard                 from "./comps/TrackMenuLeaderboard.jsx";
+import EventInfoBox                         from "./comps/EventInfoBox.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -125,8 +126,10 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       credits="300,000">
     </CarPurchaseBox> */}
 
-    <TrackMenuLeaderboard>
-    </TrackMenuLeaderboard>
+    {/* <TrackMenuLeaderboard>
+    </TrackMenuLeaderboard> */}
+
+    <EventInfoBox></EventInfoBox>
 
   </>
 );

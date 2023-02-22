@@ -14,11 +14,16 @@
   font-family: 'helv-bd';
   src: url('./Helv-Bd.otf');
 }
+@font-face {
+  font-family: 'gts-num';
+  src: url('./gtseriesfont-num-001.otf');
+}
 
 
 body {
   background-color: rgb(67, 67, 67);
   padding: 1rem;
+  color:#dcdcdc;
 }
 
 @media screen and (min-width:850px) {

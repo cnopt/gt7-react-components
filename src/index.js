@@ -34,6 +34,7 @@ import CarPurchaseBox                       from "./comps/CarPurchaseBox.jsx";
 import TrackMenuLeaderboard                 from "./comps/TrackMenuLeaderboard.jsx";
 import EventInfoBox                         from "./comps/EventInfoBox.jsx";
 import SettingsBox                          from "./comps/SettingsBox.jsx";
+import MusicRallySpeedometer                from "./comps/MusicRallySpeedometer.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -132,7 +133,9 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
 
     {/* <EventInfoBox></EventInfoBox> */}
     
-    <SettingsBox setting="Ghost Settings"></SettingsBox>
+    {/* <SettingsBox setting="Ghost Settings"></SettingsBox> */}
+
+    <MusicRallySpeedometer gear="3" speed="128"></MusicRallySpeedometer>
 
 
   </>

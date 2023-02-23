@@ -1,0 +1,137 @@
+#mainracespeedo-container {
+    width: 22rem;
+    background-color: rgba(0,0,0,0.2);
+    padding: 0.75rem;
+    border-radius: 10px;
+    padding-bottom: 1.25rem;
+}
+
+#mainracespeedo-inner {
+    position: relative;
+}
+
+#left-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#left-area #brake-container {
+    width: 1.25rem;
+    height: 5.5rem;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+    #brake-value {
+        position: absolute;
+        bottom: 0.25rem;
+        width: 0.75rem;
+        height: 24%;
+        background-color: white;
+        left: 0.25rem;
+        border-radius: 2px;
+    }
+
+#right-area {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#right-area #throttle-container {
+    width: 1.25rem;
+    height: 5.5rem;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+    #throttle-value {
+        position: absolute;
+        bottom: 0.25rem;
+        width: 0.75rem;
+        height: 63%;
+        background-color: white;
+        left: 0.25rem;
+        border-radius: 2px;
+    }
+
+#heading-container {
+    width: 17rem;
+    height: 0.35rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+    #heading-value {
+        width: 0.33rem;
+        height: 0.33rem;
+        border-radius: 100%;
+        background-color: #67acdf;
+        position: absolute;
+        top: -3px;
+        /* margin-left: -59px;  use this to offset from the center ??? +/- 
+        default: 0, min: -100px for example, max 100px */ 
+    }
+
+#upper-area {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    padding-top: 0.15rem;
+    background-image: repeating-linear-gradient(90deg, #363636 0 3px, transparent 2px 100%);
+    background-size: 6px;
+}
+
+#upper-area #rpm-container {
+    width: 17rem;
+    height: 0.75rem;
+    background-color: black;
+    position: relative;
+    z-index: -1;
+}
+    #rpm-value {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 58%;
+        background-color: white;
+    }
+
+#lower-area {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.7rem;
+    align-items: center;
+}
+
+#lower-area #speed-container {
+    border-right: 1px solid white;
+    padding-right: 1rem;
+}
+
+#lower-area #speed-value {
+    font-size: 2.5em;
+    font-family: gts-num;
+    width: 7rem;
+    text-align: right;
+    margin-top: -0.35rem;
+}
+    #speed-units {
+        font-family: helv;
+        text-align: right;
+        font-size: 0.85em;
+    }
+
+#lower-area #gear-value {
+    display: inline-block;
+    font-size: 3em;
+    font-family: 'gts-num';
+    width: 7rem;
+    padding-left: 1rem;
+}

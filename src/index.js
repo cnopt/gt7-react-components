@@ -35,6 +35,7 @@ import TrackMenuLeaderboard                 from "./comps/TrackMenuLeaderboard.j
 import EventInfoBox                         from "./comps/EventInfoBox.jsx";
 import SettingsBox                          from "./comps/SettingsBox.jsx";
 import MusicRallySpeedometer                from "./comps/MusicRallySpeedometer.jsx";
+import MainRaceSpeedometer                  from "./comps/MainRaceSpeedometer.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -135,8 +136,15 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
     
     {/* <SettingsBox setting="Ghost Settings"></SettingsBox> */}
 
-    <MusicRallySpeedometer gear="3" speed="128"></MusicRallySpeedometer>
+    {/* <MusicRallySpeedometer gear="3" speed="128"></MusicRallySpeedometer> */}
 
+    <MainRaceSpeedometer
+      speed="142"
+      gear="5"
+      rpm="71"
+      throttle="96"
+      brake="0">
+    </MainRaceSpeedometer>
 
   </>
 );

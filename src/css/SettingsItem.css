@@ -1,0 +1,33 @@
+.settings-item {
+    /* background-color: #1c1d22; */
+    padding:1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 0.5rem;
+}
+
+.settings-item:hover {
+    border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.settings-item-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-item-desc {
+    font-family: helv-md;
+    font-size: 0.8em;
+    color:rgba(255, 255, 255, 0.65);
+    margin: 0;
+    padding:0;
+}
+
+.settings-item-val {
+    font-family: helv;
+    text-transform: capitalize;
+    margin: 0;
+    padding:0;
+    padding-top: 0.55rem;
+    font-size: 0.9em;
+}

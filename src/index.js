@@ -134,17 +134,17 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
 
     {/* <EventInfoBox></EventInfoBox> */}
     
-    {/* <SettingsBox setting="Ghost Settings"></SettingsBox> */}
+    <SettingsBox setting="Ghost Settings"></SettingsBox>
 
     {/* <MusicRallySpeedometer gear="3" speed="128"></MusicRallySpeedometer> */}
 
-    <MainRaceSpeedometer
+    {/* <MainRaceSpeedometer
       speed="142"
-      gear="5"
+      gear="6"
       rpm="71"
       throttle="96"
       brake="0">
-    </MainRaceSpeedometer>
+    </MainRaceSpeedometer> */}
 
   </>
 );

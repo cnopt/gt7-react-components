@@ -36,6 +36,7 @@ import EventInfoBox                         from "./comps/EventInfoBox.jsx";
 import SettingsBox                          from "./comps/SettingsBox.jsx";
 import MusicRallySpeedometer                from "./comps/MusicRallySpeedometer.jsx";
 import MainRaceSpeedometer                  from "./comps/MainRaceSpeedometer.jsx";
+import Race_CarInfoBoxHorizontalGrid        from "./comps/Race_CarInfoBoxHorizontalGrid.jsx";
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -134,17 +135,24 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
 
     {/* <EventInfoBox></EventInfoBox> */}
     
-    <SettingsBox setting="Ghost Settings" scrollable></SettingsBox>
+     {/* <SettingsBox setting="Ghost Settings" scrollable></SettingsBox> */}
 
-    {/* <MusicRallySpeedometer gear="3" speed="128"></MusicRallySpeedometer> */}
+    {/* <Race_MusicRallySpeedometer gear="3" speed="128"></Race_MusicRallySpeedometer> */}
 
-    {/* <MainRaceSpeedometer
+    {/* <Race_MainSpeedometer
       speed="142"
       gear="6"
       rpm="71"
       throttle="96"
       brake="0">
-    </MainRaceSpeedometer> */}
+    </Race_MainSpeedometer> */}
+
+    <Race_CarInfoBoxHorizontalGrid
+      img="https://raw.githubusercontent.com/cnopt/gt7-assets/main/car/0007/1902/thumbnail/73_00.png"
+      car="Z1 GTR '11"
+      manufacturer="BMW"
+      display_variant_b>
+    </Race_CarInfoBoxHorizontalGrid>
 
   </>
 );

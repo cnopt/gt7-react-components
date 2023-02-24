@@ -13,7 +13,7 @@ export default function SettingsItem(props) {
                         <p className="settings-item-val">{value}</p>
                     </div>
                     <div className="settings-item-button">
-                        <MenuRadioToggleSwitch></MenuRadioToggleSwitch>
+                        <MenuRadioToggleSwitch/>
                     </div>
                 </div>
             </div>

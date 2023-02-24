@@ -1,0 +1,61 @@
+.race_carinfoboxhoriztonalgrid {
+    width: 30rem;
+}
+
+.race_carinfoboxhoriztonalgrid-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-img img {
+    width: 12rem;
+}
+
+.car-model .desc, .car-manufacturer .desc {
+    font-size: 0.75em; 
+}
+
+.car-model p, .car-manufacturer p {
+    font-family: helv-md;
+    font-size: 1.5em;
+    margin: 0;
+    padding:0;
+    padding-top: 0.33rem;
+}
+
+
+
+.display_variant_b.race_carinfoboxhoriztonalgrid {
+    background-color: rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.65); */
+    padding: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 28rem;
+    background: rgb(45,47,50);
+    background: linear-gradient(0deg, rgba(45,47,50,1) 0%, rgba(24,25,29,1) 100%);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.display_variant_b .car-img {
+    /* border-right: 1px solid rgba(255, 255, 255, 0.65); */
+    padding-right: 0.33rem;
+}
+.display_variant_b .car-img img {
+    width: 7rem;
+}
+.display_variant_b .race_carinfoboxhoriztonalgrid-inner {
+    justify-content:left;
+}
+.display_variant_b .desc {
+    display: none;
+}
+.display_variant_b .car-manufacturer {
+    padding-left: 1rem;
+}
+.display_variant_b .car-model {
+    padding-left: 2rem;
+    font-size: 0.85em;
+}

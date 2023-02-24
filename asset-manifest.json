@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gt7-react-components/static/css/main.58cb1c6c.css",
-    "main.js": "/gt7-react-components/static/js/main.ead208b8.js",
+    "main.css": "/gt7-react-components/static/css/main.bfb96239.css",
+    "main.js": "/gt7-react-components/static/js/main.ed8a7ffb.js",
     "static/media/ek-dark.png": "/gt7-react-components/static/media/ek-dark.60ac9f9a8f4515543b90.png",
     "static/media/ek.png": "/gt7-react-components/static/media/ek.8c69e80f912d5b9e99ab.png",
     "static/media/dragon.png": "/gt7-react-components/static/media/dragon.b756631c1a71c754eb8c.png",
@@ -11,11 +11,11 @@
     "static/media/Helv-R.otf": "/gt7-react-components/static/media/Helv-R.41833cf0d2ff7ab2a686.otf",
     "static/media/gtseriesfont-num-001.otf": "/gt7-react-components/static/media/gtseriesfont-num-001.4257fe1cb406debb9a5f.otf",
     "index.html": "/gt7-react-components/index.html",
-    "main.58cb1c6c.css.map": "/gt7-react-components/static/css/main.58cb1c6c.css.map",
-    "main.ead208b8.js.map": "/gt7-react-components/static/js/main.ead208b8.js.map"
+    "main.bfb96239.css.map": "/gt7-react-components/static/css/main.bfb96239.css.map",
+    "main.ed8a7ffb.js.map": "/gt7-react-components/static/js/main.ed8a7ffb.js.map"
   },
   "entrypoints": [
-    "static/css/main.58cb1c6c.css",
-    "static/js/main.ead208b8.js"
+    "static/css/main.bfb96239.css",
+    "static/js/main.ed8a7ffb.js"
   ]
 }

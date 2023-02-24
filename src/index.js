@@ -134,7 +134,7 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
 
     {/* <EventInfoBox></EventInfoBox> */}
     
-    <SettingsBox setting="Ghost Settings"></SettingsBox>
+    <SettingsBox setting="Ghost Settings" scrollable></SettingsBox>
 
     {/* <MusicRallySpeedometer gear="3" speed="128"></MusicRallySpeedometer> */}
 

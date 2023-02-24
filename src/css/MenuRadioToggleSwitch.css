@@ -21,8 +21,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
-    border:1px solid white;
+    border:1px solid rgba(255,255,255,0.8);
     -webkit-transition: .15s;
     transition: .15s;
   }
@@ -35,7 +34,7 @@
     left: 4px;
     bottom: 3px;
     background-color: rgba(0, 0, 0, 0);
-    border:1px solid white;
+    border:1px solid rgba(255,255,255,0.8);
     -webkit-transition: .15s;
     transition: .15s;
   }

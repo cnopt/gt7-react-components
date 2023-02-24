@@ -8,6 +8,27 @@
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
 }
 
+.settings-box-inner {
+    /* height: 12rem;
+    overflow-y: scroll;
+    padding-right: 0.5rem; */
+}
+    .scrollable {
+        height: 12rem;
+        overflow-y: scroll;
+        padding-right: 0.5rem;
+    }
+    .settings-box-inner::-webkit-scrollbar {
+        width: 5px;
+    }
+    .settings-box-inner::-webkit-scrollbar-thumb {
+        background: #d3d3d3;
+        border-radius: 50px;
+    }
+    .settings-box-inner::-webkit-scrollbar-thumb:hover {
+        background: #acacac;
+    }
+
 .settings-box-title {
     font-family: helv-md;
     font-size: 0.8em;
@@ -15,4 +36,5 @@
     margin: 0;
     padding:0;
     text-align: center;
+    padding-bottom: 0.5rem;
 }

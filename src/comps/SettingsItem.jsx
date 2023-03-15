@@ -1,9 +1,10 @@
 import React from "react";
 import '../css/SettingsItem.css'
 import MenuRadioToggleSwitch from "./MenuRadioToggleSwitch";
+import '../css/MenuRadioToggleSwitch.css'
 
 export default function SettingsItem(props) {
-    const {type, desc, value} = props;
+    const {type, desc, value, children} = props;
     return(
         <>
             <div className="settings-item">
@@ -13,7 +14,7 @@ export default function SettingsItem(props) {
                         <p className="settings-item-val">{value}</p>
                     </div>
                     <div className="settings-item-button">
-                        <MenuRadioToggleSwitch/>
+                        {children}
                     </div>
                 </div>
             </div>

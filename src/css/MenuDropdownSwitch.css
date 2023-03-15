@@ -1,0 +1,23 @@
+.menuitem-dropdown {
+    font-family: helv;
+    font-size: 0.9em;
+    background-color:rgba(0, 0, 0, 0.35);
+    color:#dcdcdc;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 6px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+option.menuitem-dropdown-option {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+    .menuitem-dropdown-option:hover {
+        background-color: #97999b;
+    }

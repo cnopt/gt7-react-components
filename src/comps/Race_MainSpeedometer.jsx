@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/MainRaceSpeedometer.css'
+import '../css/Race_MainSpeedometer.css'
 
 export default function MainRaceSpeedometer(props) {
     const {speed, gear, throttle, brake, rpm} = props;

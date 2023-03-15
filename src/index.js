@@ -34,9 +34,15 @@ import CarPurchaseBox                       from "./comps/CarPurchaseBox.jsx";
 import TrackMenuLeaderboard                 from "./comps/TrackMenuLeaderboard.jsx";
 import EventInfoBox                         from "./comps/EventInfoBox.jsx";
 import SettingsBox                          from "./comps/SettingsBox.jsx";
-import MusicRallySpeedometer                from "./comps/MusicRallySpeedometer.jsx";
-import MainRaceSpeedometer                  from "./comps/MainRaceSpeedometer.jsx";
+import Race_MainSpeedometer                 from "./comps/Race_MainSpeedometer.jsx";
 import Race_CarInfoBoxHorizontalGrid        from "./comps/Race_CarInfoBoxHorizontalGrid.jsx";
+import SettingsSectionTitle                 from './comps/SettingsSectionTitle.jsx';
+import SettingsItem                         from './comps/SettingsItem.jsx';
+import MenuRadioToggleSwitch                from "./comps/MenuRadioToggleSwitch.jsx";
+import MenuDropdownSwitch                   from "./comps/MenuDropdownSwitch.jsx";
+import HagertyCollectionContainer           from "./comps/HagertyCollectionContainer.jsx";
+import HagertyCollectionItem                from "./comps/HagertyCollectionItem.jsx";
+
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <>
@@ -139,6 +145,14 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
 
     {/* <Race_MusicRallySpeedometer gear="3" speed="128"></Race_MusicRallySpeedometer> */}
 
+
+    {/* <Race_CarInfoBoxHorizontalGrid
+      img="https://raw.githubusercontent.com/cnopt/gt7-assets/main/car/0007/1902/thumbnail/73_00.png"
+      car="Z1 GTR '11"
+      manufacturer="BMW"
+      display_variant_a>
+    </Race_CarInfoBoxHorizontalGrid> */}
+
     {/* <Race_MainSpeedometer
       speed="142"
       gear="6"
@@ -147,12 +161,49 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
       brake="0">
     </Race_MainSpeedometer> */}
 
-    <Race_CarInfoBoxHorizontalGrid
-      img="https://raw.githubusercontent.com/cnopt/gt7-assets/main/car/0007/1902/thumbnail/73_00.png"
-      car="Z1 GTR '11"
-      manufacturer="BMW"
-      display_variant_b>
-    </Race_CarInfoBoxHorizontalGrid>
+    {/* <SettingsBox setting="GUI Options" scrollable>
+      <SettingsSectionTitle>Car Info Display</SettingsSectionTitle>
+        <SettingsItem 
+            type="dropdown"
+            desc="Display Variant"
+            value="A">
+            <MenuDropdownSwitch/>
+        </SettingsItem>
+      <SettingsSectionTitle>Speedometer Display</SettingsSectionTitle>
+        <SettingsItem 
+            type="radio"
+            desc="Display Variant"
+            value="B">
+            <MenuRadioToggleSwitch/>
+        </SettingsItem>
+    </SettingsBox> */}
+
+    <HagertyCollectionContainer>
+      <HagertyCollectionItem
+        manufacturer="Jaguar"
+        car="XJR-9 '88"
+        id="1067"
+        year="1988"
+        miles="139"
+        credits="2,200,000">
+      </HagertyCollectionItem>
+      <HagertyCollectionItem
+        manufacturer="Jaguar"
+        car="XJR-9 '88"
+        id="1067"
+        year="1988"
+        miles="139"
+        credits="2,200,000">
+      </HagertyCollectionItem>
+      <HagertyCollectionItem
+        manufacturer="Jaguar"
+        car="XJR-9 '88"
+        id="1067"
+        year="1988"
+        miles="139"
+        credits="2,200,000">
+      </HagertyCollectionItem>
+    </HagertyCollectionContainer>
 
   </>
 );

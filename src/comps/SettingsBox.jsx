@@ -14,22 +14,7 @@ export default function SettingsBox(props) {
                 <div className={classNames("settings-box-inner", {
                     scrollable: scrollable
                 })}>
-                    <SettingsSectionTitle>Ghost Display</SettingsSectionTitle>
-                    <SettingsItem 
-                        type="radio"
-                        desc="Display Personal Best Ghost"
-                        value="on">
-                    </SettingsItem>
-                    <SettingsItem 
-                        type="radio"
-                        desc="Display Personal Best Ghost"
-                        value="on">
-                    </SettingsItem>
-                    <SettingsItem 
-                        type="radio"
-                        desc="Display Personal Best Ghost"
-                        value="on">
-                    </SettingsItem>
+                    {children}
                 </div>
             </div>
         </>

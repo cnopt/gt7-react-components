@@ -1,10 +1,10 @@
 .race_carinfoboxhoriztonalgrid {
-    width: 30rem;
+    width: 100%;
 }
 
 .race_carinfoboxhoriztonalgrid-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
 }
 
@@ -21,7 +21,8 @@
     font-size: 1.5em;
     margin: 0;
     padding:0;
-    padding-top: 0.33rem;
+    padding-top: 0.2rem;
+    padding-left: 2rem;
 }
 
 

@@ -21,7 +21,8 @@
 
 
 body {
-  background-color: rgb(67, 67, 67);
+  /* background-color: rgb(67, 67, 67); */
+  background-color:#131418;
   padding: 1rem;
   color:#dcdcdc;
 }

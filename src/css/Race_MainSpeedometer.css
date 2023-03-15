@@ -69,8 +69,8 @@
     position: relative;
 }
     #heading-value {
-        width: 0.33rem;
-        height: 0.33rem;
+        width: 4px;
+        height: 4px;
         border-radius: 100%;
         background-color: #67acdf;
         position: absolute;
@@ -84,7 +84,7 @@
     vertical-align: top;
     justify-content: center;
     padding-top: 0.15rem;
-    background-image: repeating-linear-gradient(90deg, #363636 0 3px, transparent 2px 100%);
+    background-image: repeating-linear-gradient(90deg, rgba(15,16,19) 0 3px, transparent 2px 100%);
     background-size: 6px;
 }
 

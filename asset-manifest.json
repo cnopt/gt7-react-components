@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/gt7-react-components/static/css/main.51e3ed24.css",
-    "main.js": "/gt7-react-components/static/js/main.34e0069d.js",
+    "main.css": "/gt7-react-components/static/css/main.4b06ac66.css",
+    "main.js": "/gt7-react-components/static/js/main.89157f7c.js",
     "static/media/ek-dark.png": "/gt7-react-components/static/media/ek-dark.60ac9f9a8f4515543b90.png",
     "static/media/ek.png": "/gt7-react-components/static/media/ek.8c69e80f912d5b9e99ab.png",
+    "static/media/helveticaneueltw1g-mdcn.otf": "/gt7-react-components/static/media/helveticaneueltw1g-mdcn.b800d61f0a66bee6006a.otf",
+    "static/media/helveticaneueltthai-regular.otf": "/gt7-react-components/static/media/helveticaneueltthai-regular.f17c84e6ecb13308ec2c.otf",
     "static/media/dragon.png": "/gt7-react-components/static/media/dragon.b756631c1a71c754eb8c.png",
     "static/media/Helv-Md.otf": "/gt7-react-components/static/media/Helv-Md.938ba0f9f7dad38c4afb.otf",
     "static/media/Helv-Bd.otf": "/gt7-react-components/static/media/Helv-Bd.14a13a5415b0d3b6ca0b.otf",
@@ -11,11 +13,11 @@
     "static/media/Helv-R.otf": "/gt7-react-components/static/media/Helv-R.41833cf0d2ff7ab2a686.otf",
     "static/media/gtseriesfont-num-001.otf": "/gt7-react-components/static/media/gtseriesfont-num-001.4257fe1cb406debb9a5f.otf",
     "index.html": "/gt7-react-components/index.html",
-    "main.51e3ed24.css.map": "/gt7-react-components/static/css/main.51e3ed24.css.map",
-    "main.34e0069d.js.map": "/gt7-react-components/static/js/main.34e0069d.js.map"
+    "main.4b06ac66.css.map": "/gt7-react-components/static/css/main.4b06ac66.css.map",
+    "main.89157f7c.js.map": "/gt7-react-components/static/js/main.89157f7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.51e3ed24.css",
-    "static/js/main.34e0069d.js"
+    "static/css/main.4b06ac66.css",
+    "static/js/main.89157f7c.js"
   ]
 }

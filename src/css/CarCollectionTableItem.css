@@ -1,0 +1,30 @@
+table {
+    text-align: left;
+    width: 100%;
+    border-spacing: 0;
+}
+
+table tr:nth-child(odd) {
+    background-color: #19191c;
+}
+table tr:nth-child(even) {
+    background-color: #131315;
+}
+
+table tr th {
+    font-family: helv-cond;
+    font-weight: normal;
+    font-size: 0.8em;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-left: 0.65rem;
+}
+
+table tr td {
+    font-family: helv;
+}
+    table tr td img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 0.5rem;
+    }

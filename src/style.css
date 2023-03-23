@@ -18,6 +18,14 @@
   font-family: 'gts-num';
   src: url('./gtseriesfont-num-001.otf');
 }
+@font-face {
+  font-family: helv-thai;
+  src: url('./helveticaneueltthai-regular.otf');
+}
+@font-face {
+  font-family: helv-cond;
+  src: url('./helveticaneueltw1g-mdcn.otf');
+}
 
 
 body {

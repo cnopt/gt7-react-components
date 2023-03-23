@@ -42,6 +42,8 @@ import MenuRadioToggleSwitch                from "./comps/MenuRadioToggleSwitch.
 import MenuDropdownSwitch                   from "./comps/MenuDropdownSwitch.jsx";
 import HagertyCollectionContainer           from "./comps/HagertyCollectionContainer.jsx";
 import HagertyCollectionItem                from "./comps/HagertyCollectionItem.jsx";
+import CarCollectionTable                   from "./comps/CarCollectionTable.jsx";
+import CarCollectionTableItem               from "./comps/CarCollectionTableItem.jsx";
 
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
@@ -178,7 +180,7 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
         </SettingsItem>
     </SettingsBox> */}
 
-    <HagertyCollectionContainer>
+    {/* <HagertyCollectionContainer>
       <HagertyCollectionItem
         manufacturer="Jaguar"
         car="XJR-9 '88"
@@ -203,7 +205,66 @@ ReactDOM.createRoot(document.querySelector("#root")).render(
         miles="139"
         credits="2,200,000">
       </HagertyCollectionItem>
-    </HagertyCollectionContainer>
+    </HagertyCollectionContainer> */}
+
+    <CarCollectionTable>
+      <CarCollectionTableItem
+        car="XJR-9 '88"
+        country="GB"
+        id="1067"
+        manufacturer="Jaguar"
+        pp="896.32"
+        category="Gr.1"
+        drivetrain="4WD"
+        power="677"
+        weight="865"
+        aspiration="NA"
+        year="1984"
+        miles="18">
+      </CarCollectionTableItem>
+      <CarCollectionTableItem
+        car="XJR-9 '88"
+        country="GB"
+        id="1067"
+        manufacturer="Jaguar"
+        pp="896.32"
+        category="Gr.1"
+        drivetrain="4WD"
+        power="677"
+        weight="865"
+        aspiration="NA"
+        year="1984"
+        miles="18">
+      </CarCollectionTableItem>
+      <CarCollectionTableItem
+        car="XJR-9 '88"
+        country="GB"
+        id="1067"
+        manufacturer="Jaguar"
+        pp="896.32"
+        category="Gr.1"
+        drivetrain="4WD"
+        power="677"
+        weight="865"
+        aspiration="NA"
+        year="1984"
+        miles="18">
+      </CarCollectionTableItem>
+      <CarCollectionTableItem
+        car="XJR-9 '88"
+        country="GB"
+        id="1067"
+        manufacturer="Jaguar"
+        pp="896.32"
+        category="Gr.1"
+        drivetrain="4WD"
+        power="677"
+        weight="865"
+        aspiration="NA"
+        year="1984"
+        miles="18">
+      </CarCollectionTableItem>
+    </CarCollectionTable>
 
   </>
 );
